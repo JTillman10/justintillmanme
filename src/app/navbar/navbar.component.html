@@ -1,0 +1,44 @@
+<nav class="navbar is-fixed-top" [ngClass]="backgroundColor">
+  <div class="navbar-brand">
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" (click)="scroll('about')">
+        <span class="icon">
+          <i class="fas fa-info"></i>
+        </span>
+        <span>About</span>
+      </a>
+      <a class="navbar-item" (click)="scroll('skills')">
+        <span class="icon">
+          <i class=""></i>
+        </span>
+        <span>Skills</span>
+      </a>
+      <a class="navbar-item" href="#projects">
+        <span class="icon">
+          <i class=""></i>
+        </span>
+        <span>Projects</span>
+      </a>
+      <a class="navbar-item" href="#resume">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Resume</span>
+      </a>
+      <a class="navbar-item" href="#contact">
+        <span class="icon">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <span>Contact</span>
+      </a>
+    </div>
+  </div>
+</nav>
