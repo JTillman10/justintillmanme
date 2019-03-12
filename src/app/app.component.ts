@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
         // GOAL => get elements in the viewport
         //         get lowest top
 
-        const elementsInViewport = ['hello', 'skills']
+        const elementsInViewport = ['hello', 'about']
           .map(id => {
             return document.getElementById(id);
           })

@@ -1,0 +1,10 @@
+<div class="skill-area">
+  <h1 class="is-size-5 is-capitalized has-text-weight-semibold" (click)="handleClick($event)">
+    {{ name }}
+  </h1>
+  <div class="content content-toggle" [ngClass]="{ open: visible }">
+    <div *ngFor="let skill of skills">
+      <skill [names]="skill.names" [level]="skill.level" [imagePaths]="skill.imagePaths"></skill>
+    </div>
+  </div>
+</div>

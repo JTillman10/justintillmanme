@@ -1,0 +1,7 @@
+<skill-area
+  *ngFor="let skillArea of skillAreas; let i = index"
+  [name]="skillArea.name"
+  [skills]="skillArea.skills"
+  [visible]="skillArea.visible"
+  (clicked)="setVisibility(i)"
+></skill-area>

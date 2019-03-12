@@ -1,0 +1,24 @@
+.skill-area {
+  margin-bottom: 1rem;
+}
+
+.content-toggle {
+  transition: 1s all;
+  max-height: 0;
+  pointer-events: none;
+  opacity: 0;
+  &.open {
+    opacity: 1;
+    max-height: 1000px;
+    pointer-events: auto;
+  }
+}
+
+h1 {
+  border-bottom: 1px lightgray solid;
+  padding-bottom: 5px;
+  cursor: pointer;
+  & :hover {
+    background-color: lightgray;
+  }
+}
