@@ -1,15 +1,9 @@
 <!-- Hello -->
-<!-- <section-wrapper id="hello" [color]="'dark'" [showNav]="highestElement?.id === 'hello'"
-  ><hello></hello
-></section-wrapper> -->
 <hello id="hello" [showNav]="highestElement?.id === 'hello'"></hello>
-<!-- About/Profile -->
-<!-- Skills -->
-<!-- <section-wrapper id="profile" [color]="'light'" [showNav]="highestElement?.id === 'about'"
-  ><about></about
-></section-wrapper> -->
+<!-- About/Profile --><!-- Skills -->
 <about id="about" [showNav]="highestElement?.id === 'about'"></about>
 <!-- Project cards-->
+<projects id="projects" [showNav]="highestElement?.id === 'projects'"></projects>
 <!-- Contact -->
 
 <router-outlet></router-outlet>

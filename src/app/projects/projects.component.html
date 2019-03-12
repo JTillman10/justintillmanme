@@ -1,0 +1,19 @@
+<section class="hero is-bold is-light">
+  <div *ngIf="showNav">
+    <navbar></navbar>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column" *ngFor="let project of projects">
+          <project
+            [name]="project.name"
+            [image]="project.image"
+            [repository]="project.repository"
+            [url]="project.url"
+          ></project>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
