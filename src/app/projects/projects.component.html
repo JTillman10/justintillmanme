@@ -1,16 +1,18 @@
-<section class="hero is-bold is-light">
-  <div *ngIf="showNav">
+<section class="hero is-bold is-info">
+  <!-- <div *ngIf="showNav">
     <navbar></navbar>
-  </div>
+  </div> -->
   <section class="section">
     <div class="container">
-      <div class="columns is-multiline">
-        <div class="column" *ngFor="let project of projects">
+      <div class="columns is-multiline is-variable is-6 is-centered">
+        <div class="column is-4" *ngFor="let project of projects">
           <project
             [name]="project.name"
             [image]="project.image"
             [repository]="project.repository"
             [url]="project.url"
+            [summary]="project.summary"
+            [tags]="project.tags"
           ></project>
         </div>
       </div>

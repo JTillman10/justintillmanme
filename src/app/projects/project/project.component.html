@@ -1,11 +1,21 @@
 <div class="card grow">
   <div class="card-image">
-    <figure class="image">
+    <figure class="image is-5by4">
       <img [src]="'assets/projects/' + image" />
+      <div class="overlay column">
+        <div class="content has-text-white">
+          <p class="text is-size-5">
+            {{ summary }}
+          </p>
+        </div>
+        <div class="tags">
+          <div class="tag is-light" *ngFor="let tag of tags">{{ tag }}</div>
+        </div>
+      </div>
     </figure>
   </div>
   <div class="card-header">
-    <p class="card-header-title is-size-4 is-centered">{{ name }}</p>
+    <div class="card-header-title is-size-4 is-centered">{{ name }}</div>
   </div>
   <footer class="card-footer">
     <a

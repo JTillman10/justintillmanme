@@ -49,7 +49,7 @@ export class SkillsService {
           },
           {
             names: ['Aurelia'],
-            level: 50,
+            level: 35,
             imagePaths: ['aurelia.png']
           },
           {

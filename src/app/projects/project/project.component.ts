@@ -8,10 +8,12 @@ import { faCode, faEye } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-  @Input() name;
-  @Input() image;
-  @Input() repository;
-  @Input() url;
+  @Input() name: string;
+  @Input() image: string;
+  @Input() repository: string;
+  @Input() url: string;
+  @Input() summary: string;
+  @Input() tags: string[];
 
   faCode = faCode;
   faEye = faEye;

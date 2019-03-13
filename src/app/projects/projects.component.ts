@@ -7,7 +7,7 @@ import { ProjectsService } from './projects.service';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  @Input() showNav: boolean;
+  // @Input() showNav: boolean;
 
   projects;
 

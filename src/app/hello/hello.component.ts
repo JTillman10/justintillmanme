@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./hello.component.scss']
 })
 export class HelloComponent implements OnInit {
-  @Input() showNav: boolean;
+  // @Input() showNav: boolean;
 
   constructor() {}
 
