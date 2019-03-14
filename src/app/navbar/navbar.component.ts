@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faInfo, faWrench, faFilePdf, faUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'navbar',
@@ -14,6 +14,10 @@ export class NavbarComponent {
   faLinkedinIn = faLinkedinIn;
   faGithub = faGithub;
   faEnvelope = faEnvelope;
+  faInfo = faInfo;
+  faWrench = faWrench;
+  faFilePdf = faFilePdf;
+  faUser = faUser;
 
   constructor() {}
 
