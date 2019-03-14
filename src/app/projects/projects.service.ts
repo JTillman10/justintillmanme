@@ -23,6 +23,14 @@ export class ProjectsService {
         url: 'https://tv-data-40d21.firebaseapp.com',
         summary: 'Organization web application use to plan out features for a project',
         tags: ['TypeScript', 'Angular', 'Firebase', 'Database', 'Material Design', 'HTML', 'SASS']
+      },
+      {
+        name: 'My Portfolio',
+        image: 'justintillmanme.png',
+        repository: 'justintillmanme',
+        url: '',
+        summary: 'My portfolio',
+        tags: ['TypeScript', 'Angular', 'Firebase', 'Bulma', 'HTML', 'SASS']
       }
     ];
   }
