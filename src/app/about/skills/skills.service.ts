@@ -13,22 +13,22 @@ export class SkillsService {
         skills: [
           {
             names: ['Java'],
-            level: 70,
+            level: 65,
             imagePaths: ['java.png']
           },
           {
             names: ['JavaScript'],
-            level: 90,
+            level: 85,
             imagePaths: ['javascript.png']
           },
           {
             names: ['HTML', 'CSS'],
-            level: 75,
+            level: 70,
             imagePaths: ['html.png', 'css.png']
           },
           {
             names: ['ruby'],
-            level: 60,
+            level: 50,
             imagePaths: ['ruby.png']
           }
         ],
@@ -49,7 +49,7 @@ export class SkillsService {
           },
           {
             names: ['Aurelia'],
-            level: 35,
+            level: 30,
             imagePaths: ['aurelia.png']
           },
           {
@@ -64,7 +64,7 @@ export class SkillsService {
           },
           {
             names: ['VueJS'],
-            level: 40,
+            level: 35,
             imagePaths: ['vue.png']
           }
         ],

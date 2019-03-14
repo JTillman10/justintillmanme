@@ -7,8 +7,6 @@ import { ProjectsService } from './projects.service';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  // @Input() showNav: boolean;
-
   projects;
 
   constructor(private projectsService: ProjectsService) {}

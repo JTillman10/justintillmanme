@@ -1,21 +1,49 @@
-<nav class="navbar">
+<nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="navbar-item">
+        <a
+          href="https://www.linkedin.com/in/justin-tillman-5403a9148/"
+          target="_blank"
+          title="Github"
+        >
+          <span class="icon has-text-white">
+            <fa-icon [icon]="faLinkedinIn" size="lg"></fa-icon>
+          </span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a href="https://github.com/JTillman10/" target="_blank" title="Github">
+          <span class="icon  has-text-white">
+            <fa-icon [icon]="faGithub" size="lg"></fa-icon>
+          </span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a href="mailto:tillman.55@osu.edu" target="_blank" title="Github">
+          <span class="icon  has-text-white">
+            <fa-icon [icon]="faEnvelope" size="lg"></fa-icon>
+          </span>
+        </a>
+      </div>
+      <div
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        class="navbar-burger burger has-text-white"
+        [ngClass]="{ 'is-active': menuIsActive }"
+        data-target="navbarMenu"
+        (click)="menuIsActive = !menuIsActive"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </div>
     </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div id="navbarMenu" class="navbar-menu" [ngClass]="{ 'is-active': menuIsActive }">
       <div class="navbar-end">
-        <a class="navbar-item" (click)="scroll('hello')">
-          <span class="icon">
-            <i class="fas fa-info"></i>
-          </span>
-          <span>Home</span>
-        </a>
         <a class="navbar-item" (click)="scroll('about')">
           <span class="icon">
             <i class=""></i>

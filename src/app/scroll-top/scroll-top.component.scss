@@ -1,0 +1,21 @@
+.scroll-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    height: 4.6rem;
+    width: 4rem;
+    line-height: 6.6rem;
+    text-align: center;
+    background: #001f3f;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}

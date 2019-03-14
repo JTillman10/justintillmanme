@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { NavbarComponent } from './navbar.component';
+import { ScrollTopComponent } from './scroll-top.component';
 
 @NgModule({
-  declarations: [NavbarComponent],
-  exports: [NavbarComponent],
+  declarations: [ScrollTopComponent],
+  exports: [ScrollTopComponent],
   imports: [CommonModule, FontAwesomeModule]
 })
-export class NavbarModule {}
+export class ScrollTopModule {}
