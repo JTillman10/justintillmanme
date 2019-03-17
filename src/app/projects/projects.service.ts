@@ -21,8 +21,8 @@ export class ProjectsService {
         image: 'apporganizer.png',
         repository: 'app-organizer',
         url: 'https://tv-data-40d21.firebaseapp.com',
-        summary: 'Organization web application use to plan out features for a project',
-        tags: ['TypeScript', 'Angular', 'Firebase', 'Database', 'Material Design', 'HTML', 'SASS']
+        summary: 'Organization tool used to plan out features for a project',
+        tags: ['TypeScript', 'Angular', 'Firebase', 'Database', 'Angular Material', 'HTML', 'SASS']
       },
       {
         name: 'My Portfolio',
@@ -31,6 +31,14 @@ export class ProjectsService {
         url: '',
         summary: 'My portfolio',
         tags: ['TypeScript', 'Angular', 'Firebase', 'Bulma', 'HTML', 'SASS']
+      },
+      {
+        name: 'Nationwide Meeting Calculator',
+        image: 'nationwide-meeting-calculator.png',
+        repository: 'nw-meeting-calculator',
+        url: 'https://nw-meeting-calculator.herokuapp.com/',
+        summary: 'Provides the ability to determine how much meetings cost',
+        tags: ['TypeScript', 'Angular', 'Herkou', 'Angular Material', 'HTML', 'SASS']
       }
     ];
   }

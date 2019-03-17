@@ -15,21 +15,38 @@
     </figure>
   </div>
   <div class="card-header">
-    <div class="card-header-title is-size-4 is-centered">{{ name }}</div>
+    <div class="card-header-title is-size-6 is-centered">{{ name }}</div>
   </div>
   <footer class="card-footer">
     <a
+      *ngIf="repository; else noRepo"
       [href]="'https://github.com/JTillman10/' + repository"
       target="_blank"
       class="card-footer-item"
       title="Source Code"
     >
-      <span class="icon is-info">
+      <span class="icon has-text-info">
         <fa-icon [icon]="faCode"></fa-icon>
       </span>
     </a>
-    <a [href]="url" target="_blank" class="card-footer-item" title="View Website"
-      ><span class="icon is-info"> <fa-icon [icon]="faEye"></fa-icon> </span
+    <ng-template #noRepo>
+      <div class="card-footer-item url-disabled" title="Website unavailable">
+        <span class="icon has-text-grey-light"> <fa-icon [icon]="faCode"></fa-icon> </span>
+      </div>
+    </ng-template>
+    <a
+      *ngIf="url; else noUrl"
+      [href]="url"
+      target="_blank"
+      class="card-footer-item"
+      title="View Website"
+    >
+      <span class="icon has-text-info"> <fa-icon [icon]="faEye"></fa-icon> </span
     ></a>
+    <ng-template #noUrl>
+      <div class="card-footer-item url-disabled" title="Website unavailable">
+        <span class="icon has-text-grey-light"> <fa-icon [icon]="faEyeSlash"></fa-icon> </span>
+      </div>
+    </ng-template>
   </footer>
 </div>

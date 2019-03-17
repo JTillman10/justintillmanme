@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss']
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent {
+  currentlyLearning = [
+    {
+      name: 'VueJS',
+      imagePath: 'vue.png'
+    },
+    {
+      name: 'React Native',
+      imagePath: 'react.png'
+    }
+  ];
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  constructor() {}
 }

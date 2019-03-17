@@ -9,6 +9,7 @@ import { SkillAreaComponent } from './skills/skill-area/skill-area.component';
 import { SkillComponent } from './skills/skill-area/skill/skill.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SkillPipe } from './skills/skill-area/skill/skill.pipe';
+import { LearningItemComponent } from './profile/learning-item/learning-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SkillPipe } from './skills/skill-area/skill/skill.pipe';
     SkillAreaComponent,
     SkillComponent,
     ProfileComponent,
-    SkillPipe
+    SkillPipe,
+    LearningItemComponent
   ],
   exports: [AboutComponent],
   imports: [CommonModule, NavbarModule]

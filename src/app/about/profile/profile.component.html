@@ -24,4 +24,23 @@
     <br />
     <span>Ohio State University, BS in Computer Science</span>
   </li>
+  <li>
+    <strong>Preferred development tools:</strong>
+    <br />
+    <span>Visual Studio Code, GitHub, CircleCI</span>
+  </li>
+  <li>
+    <strong>Currently learning:</strong>
+    <br />
+    <learning-item
+      [name]="item.name"
+      [imagePath]="item.imagePath"
+      *ngFor="let item of currentlyLearning"
+    ></learning-item>
+    <!-- TODO: add label for level (expert, novice, etc), maybe pluralsight rating too -->
+  </li>
 </ul>
+<br />
+
+<!-- TODO -->
+<!-- pluralsight/udemy courses and ratings -->

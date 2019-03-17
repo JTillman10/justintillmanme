@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { faCode, faEye } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'project',
@@ -17,6 +17,7 @@ export class ProjectComponent implements OnInit {
 
   faCode = faCode;
   faEye = faEye;
+  faEyeSlash = faEyeSlash;
 
   constructor() {}
 

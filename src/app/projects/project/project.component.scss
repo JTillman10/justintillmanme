@@ -1,7 +1,11 @@
-.card-footer-item {
+.card-footer-item:not(.url-disabled) {
   &:hover {
     background-color: whitesmoke;
   }
+}
+
+.url-disabled {
+  cursor: default;
 }
 
 .card {
