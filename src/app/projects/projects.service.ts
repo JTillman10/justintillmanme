@@ -14,7 +14,7 @@ export class ProjectsService {
         repository: 'tv-data',
         url: 'https://tv-data-40d21.firebaseapp.com',
         summary: 'Web application used for television episode ratings and information',
-        tags: ['JavaScript', 'React', 'Redux', 'Firebase', 'Jest', 'Enzyme', 'HTML/SASS', 'BULMA']
+        tags: ['JavaScript', 'React', 'Redux', 'Firebase', 'Jest', 'Enzyme', 'HTML/SCSS', 'BULMA']
       },
       {
         name: 'App Organizer',
@@ -22,7 +22,7 @@ export class ProjectsService {
         repository: 'app-organizer',
         url: 'https://tv-data-40d21.firebaseapp.com',
         summary: 'Organization tool used to plan out features for a project',
-        tags: ['TypeScript', 'Angular', 'Firebase', 'Database', 'Angular Material', 'HTML', 'SASS']
+        tags: ['TypeScript', 'Angular', 'Firebase', 'Database', 'Angular Material', 'HTML', 'SCSS']
       },
       {
         name: 'My Portfolio',
@@ -30,7 +30,7 @@ export class ProjectsService {
         repository: 'justintillmanme',
         url: '',
         summary: 'My portfolio',
-        tags: ['TypeScript', 'Angular', 'Firebase', 'Bulma', 'HTML', 'SASS']
+        tags: ['TypeScript', 'Angular', 'Firebase', 'Bulma', 'HTML', 'SCSS']
       },
       {
         name: 'Nationwide Meeting Calculator',
@@ -38,7 +38,13 @@ export class ProjectsService {
         repository: 'nw-meeting-calculator',
         url: 'https://nw-meeting-calculator.herokuapp.com/',
         summary: 'Provides the ability to determine how much meetings cost',
-        tags: ['TypeScript', 'Angular', 'Herkou', 'Angular Material', 'HTML', 'SASS']
+        tags: ['TypeScript', 'Angular', 'Heroku', 'Angular Material', 'HTML', 'SCSS']
+      },
+      {
+        name: 'RPLink',
+        image: 'rplink.png',
+        summary: 'Nationwide Retirement Plans record keeping web application',
+        tags: ['JavaScript', 'AngularJS', 'Jasmine', 'Gulp', 'HTML', 'SCSS', 'Jenkins', 'Java']
       }
     ];
   }
