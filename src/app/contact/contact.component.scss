@@ -1,0 +1,9 @@
+span.icon {
+  margin: 2em;
+}
+
+a span {
+  &:hover {
+    color: black !important;
+  }
+}

@@ -5,7 +5,7 @@
         <a
           href="https://www.linkedin.com/in/justin-tillman-5403a9148/"
           target="_blank"
-          title="Github"
+          title="LinkedIn"
         >
           <span class="icon has-text-white">
             <fa-icon [icon]="faLinkedinIn" size="lg"></fa-icon>
@@ -20,7 +20,7 @@
         </a>
       </div>
       <div class="navbar-item">
-        <a href="mailto:tillman.55@osu.edu" target="_blank" title="Github">
+        <a href="mailto:tillman.55@osu.edu" target="_blank" title="Email">
           <span class="icon  has-text-white">
             <fa-icon [icon]="faEnvelope" size="lg"></fa-icon>
           </span>
@@ -56,17 +56,17 @@
           </span>
           <span>Projects</span>
         </a>
+        <a class="navbar-item" (click)="scroll('contact')">
+          <span class="icon">
+            <fa-icon [icon]="faUser"></fa-icon>
+          </span>
+          <span>Contact</span>
+        </a>
         <a class="navbar-item" href="#resume">
           <span class="icon">
             <fa-icon [icon]="faFilePdf"></fa-icon>
           </span>
           <span>Resume</span>
-        </a>
-        <a class="navbar-item" href="#contact">
-          <span class="icon">
-            <fa-icon [icon]="faUser"></fa-icon>
-          </span>
-          <span>Contact</span>
         </a>
       </div>
     </div>
